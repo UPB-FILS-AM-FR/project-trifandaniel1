@@ -1,13 +1,13 @@
 # Your Project Name
-
+Telecomanda wireless pentru controlul pozitiei cursorului
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Trifan Iulian Daniel
 
 ## Description
-
+Telecomanda wireless pentru controlul pozitiei cursorului prin touchpad/joystick si butoane pentru clicks
 ## Motivation
-
+Am nevoie de o metoda sa ma uit la serial mai comfortabil.
 ## Architecture
 
 ### Block diagram
@@ -26,10 +26,10 @@
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
+| Arduino ESP32 | Placa | [34.99 RON](https://www.optimusdigital.ro/ro/placi-cu-bluetooth/4371-placa-de-dezvoltare-esp32-cu-wifi-i-bluetooth-42.html) |
+| Butoane tactile | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
 | Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
+| Joystick analog | Joystick analog | [ RON]() |
 
 ### Libraries
 
