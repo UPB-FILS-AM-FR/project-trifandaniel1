@@ -5,7 +5,7 @@ Telecomanda wireless pentru controlul pozitiei cursorului
 |`Author` | Trifan Iulian Daniel
 
 ## Description
-Telecomanda wireless pentru controlul pozitiei cursorului prin touchpad/joystick si butoane pentru clicks
+Telecomanda pentru controlul pozitiei cursorului prin touchpad/joystick si butoane pentru clicks
 ## Motivation
 Am nevoie de o metoda sa ma uit la serial mai comfortabil.
 ## Architecture
@@ -26,10 +26,9 @@ Am nevoie de o metoda sa ma uit la serial mai comfortabil.
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Arduino ESP32 | Placa | [34.99 RON](https://www.optimusdigital.ro/ro/placi-cu-bluetooth/4371-placa-de-dezvoltare-esp32-cu-wifi-i-bluetooth-42.html) |
-| Butoane tactile | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Joystick analog | Joystick analog | [ RON]() |
+| Arduino Uno | Placa | [34.99 RON](https://www.optimusdigital.ro/en/avr-boards/4561-development-board-compatible-with-arduino-uno-r3-atmega328p-atmega16u2-50-cm-cable.html) |
+
+| Joystick shield | Joystick Shield | [32,99 RON](https://ardushop.ro/ro/electronica/999-shield-joystick-6427854013514.html?gad_source=1&gad_campaignid=22058879462&gbraid=0AAAAADlKU-4LI9_Rh9WI-VlfmfVgGHi1d&gclid=CjwKCAjwruXBBhArEiwACBRtHX1qwJBiXnskHcLCrIZoMd5jZhwQ6WCPg6KxH3oL0nNBLwp8b-a_2BoCuLcQAvD_BwE) |
 
 ### Libraries
 
@@ -45,14 +44,14 @@ Am nevoie de o metoda sa ma uit la serial mai comfortabil.
 <!-- write every week your progress here -->
 
 ### Week 6 - 12 May
-
+Gasirea ideei , alegerea pieselor.
 ### Week 7 - 19 May
-
+Realegerea pieselor in urma unor probleme provocate de ESP32 si bateria LiPo (era ars adaptorul de la baterie si am renuntat la ideea de wireless), in urma faptului ca a trebuit sa lucrez cu cablu pentru alimentare in lipsa bateriei, am decis si sa nu mai implementez wireless. (conexiunea fiind facuta prin cablu)
 ### Week 20 - 26 May
-
+Scrierea codului si finalizarea functionalitatilor. In urma faptului ca arduino uno r3 are doar functionalitate slave , a trebuit sa recurd la un HDI si am ales python pentru translatarea semnalelor din Arduino IDE in semnale de miscare a mouse-ului si click-urile lui.
 
 ## Reference links
-
+https://projecthub.arduino.cc/sraykov08/joystick-shield-94386a
 <!-- Fill in with appropriate links and link titles -->
 
 [Tutorial 1](https://www.youtube.com/watch?v=wdgULBpRoXk&t=1s&ab_channel=BenEater)
